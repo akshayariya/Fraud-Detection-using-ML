@@ -1,12 +1,9 @@
-Below is a detailed README file for your fraud detection project, following the structure you provided. This README will include an overview, a description of the files, usage instructions, column descriptors, and additional notes.
-
 # Fraud Detection System
 
 ## Overview
 This repository contains a machine learning project that detects fraudulent transactions using a given dataset. The project includes the main script for data preprocessing and model training, the dataset used for analysis, and a data dictionary describing the dataset.
 
 ## Files
-- **Fraud.csv** - The dataset containing transaction details.
 - **File1.py** - The main script that includes data preprocessing, model training, and evaluation.
 - **Data Dictionary.txt** - A text file describing each column in the dataset.
 
@@ -19,12 +16,13 @@ This repository contains a machine learning project that detects fraudulent tran
    ```sh
    cd fraud-detection-system
    ```
-3. **Ensure the dataset file (Fraud.csv) and the script (File1.py) are in the project directory.**
-4. **Install the required Python packages:**
+3. **Download the dataset from Google Drive and place Fraud.csv in the project directory.**
+   Link: https://drive.google.com/file/d/1y8PAO5rrWdmBP8and72Z6AjhcUqWSh6G/view?usp=sharing
+5. **Install the required Python packages:**
    ```sh
    pip install pandas numpy scikit-learn xgboost
    ```
-5. **Run the script:**
+6. **Run the script:**
    ```sh
    python File1.py
    ```
@@ -55,4 +53,4 @@ This repository contains a machine learning project that detects fraudulent tran
 ## Notes
 - Ensure you have Python installed along with the necessary libraries (`pandas`, `numpy`, `scikit-learn`, and `xgboost`).
 - The script `File1.py` contains all the necessary steps for data preprocessing, model training, and evaluation.
-- The dataset (`Fraud.csv`) should be placed in the same directory as the script for proper execution.
+- Download the dataset from the provided link and ensure it is placed in the same directory as the script for proper execution.
